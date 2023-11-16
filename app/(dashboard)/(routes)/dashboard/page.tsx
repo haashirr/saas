@@ -45,7 +45,7 @@ const DashboardPage = () => {
     return (
         <div>
        <div className="mb-8 space-y-4">
-        <h2 className="font-sans font-santext-2xl md:text-4xl font-bold text-center">Welcome to Stellar</h2>
+        <h2 className="font-sans font-santext-2xl md:text-4xl font-bold text-center">Welcome to Aurora AI</h2>
         <p className="font-sans text-muted-foreground text-sm md:text-lg text-center">
            Your one stop solution to all things AI.
         </p>
