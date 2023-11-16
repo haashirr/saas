@@ -26,18 +26,6 @@ const routes = [
         color: "text-pink-700",
     },
     {
-        label: "Video Generation",
-        icon: VideoIcon,
-        href: "/video",
-        color: "text-teal-500",
-    },
-    {
-        label: "Music Generation",
-        icon: Music,
-        href: "/music",
-        color: "text-green-700",
-    },
-    {
         label: "Code Generation",
         icon: Code,
         href: "/code",
@@ -58,7 +46,7 @@ const Sidebar = () => {
               AuroraAI
             </h1>
           </Link>
-          <div className="space-y-1">
+          <div className="space-y-10">
             {routes.map((route) => ( // Fixed the map function
               <Link
                 href={route.href}

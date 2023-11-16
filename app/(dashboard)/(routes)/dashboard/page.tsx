@@ -12,25 +12,11 @@ const tools = [
         href: "/conversation"
     },
     {
-        label: "Music Generation",
-        icon: MusicIcon,
-        color: "text-green-700",
-        bgColor: "bg-green-500/10",
-        href: "/music"
-    },
-    {
         label: "Image Generation",
         icon: ImageIcon,
         color: "text-pink-700",
         bgColor: "bg-pink-500/10",
         href: "/image"
-    },
-    {
-        label: "Video Generation",
-        icon: VideoIcon,
-        color: "text-teal-600",
-        bgColor: "bg-teal-400/10",
-        href: "/video"
     },
     {
         label: "Code Generation",
@@ -50,7 +36,7 @@ const DashboardPage = () => {
            Your one stop solution to all things AI.
         </p>
        </div>
-       <div className="px-4 md:px-20 lg:px-32 space-y-4">
+       <div className="px-4 md:px-20 lg:px-32 space-y-14">
         {tools.map((tool)=> (
             <Card
             onClick={()=> router.push(tool.href)}
