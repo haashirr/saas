@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server"; 
 import {Configuration, OpenAIApi, ChatCompletionRequestMessage}  from "openai";
-
+import { defer } from '@defer/client';
 import { auth } from "@clerk/nextjs";
 
 const configuration = new Configuration ({
